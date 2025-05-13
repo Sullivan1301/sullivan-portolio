@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
@@ -8,24 +7,24 @@ import { ThemeToggle } from './ThemeToggle';
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
-    
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-  
+
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  
+
   return (
-    <nav 
+    <nav
       className={cn(
         "fixed w-full top-0 z-50 transition-all duration-300",
-        isScrolled 
-          ? "py-2 bg-background/80 backdrop-blur-md shadow-md" 
+        isScrolled
+          ? "py-2 bg-background/80 backdrop-blur-md shadow-md"
           : "py-4 bg-transparent"
       )}
     >
@@ -36,7 +35,7 @@ const Navbar: React.FC = () => {
             <AvatarFallback className="bg-dark text-gold text-lg font-bold">SJ</AvatarFallback>
           </Avatar>
         </a>
-        
+
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           <a href="#home" className="text-foreground/80 hover:text-gold transition-colors">Accueil</a>
@@ -47,11 +46,11 @@ const Navbar: React.FC = () => {
           <a href="#contact" className="text-foreground/80 hover:text-gold transition-colors">Contact</a>
           <ThemeToggle />
         </div>
-        
+
         {/* Mobile Menu Button */}
         <div className="flex items-center gap-4 md:hidden">
           <ThemeToggle />
-          <button 
+          <button
             onClick={toggleMenu}
             aria-label="Toggle menu"
             className="text-foreground"
@@ -60,7 +59,7 @@ const Navbar: React.FC = () => {
           </button>
         </div>
       </div>
-      
+
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-background/95 backdrop-blur-md pt-4 pb-6 shadow-lg">
