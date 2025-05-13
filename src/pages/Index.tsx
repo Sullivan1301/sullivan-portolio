@@ -17,7 +17,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="bg-dark text-white min-h-screen">
+    <div className="min-h-screen">
       <Navbar />
 
       {/* Hero Section */}
@@ -30,7 +30,7 @@ const Index = () => {
             Community Manager, Développeur Web et Stratège Digital.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-            <Button asChild className="bg-gold text-dark hover:bg-gold/80 transition-colors">
+            <Button asChild className="bg-gold text-background hover:bg-gold/80 transition-colors">
               <a href="/Sullivan_CV.pdf" download aria-label="Télécharger mon CV">
                 <FileText className="mr-2 h-4 w-4" /> Télécharger mon CV
                 <ArrowDown className="ml-2 h-4 w-4" />
@@ -247,7 +247,7 @@ const Index = () => {
       <footer className="bg-muted py-8 px-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-6 md:mb-0">
-            <p className="text-white/70">© 2025 Sullivan Joro – Tous droits réservés</p>
+            <p className="text-foreground/70">© 2025 Sullivan Joro – Tous droits réservés</p>
           </div>
           <div className="flex flex-col items-center md:items-end">
             <SocialLinks iconSize={24} />

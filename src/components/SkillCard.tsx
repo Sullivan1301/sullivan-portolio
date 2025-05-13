@@ -17,7 +17,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ title, description, className }) 
     )}>
       <CardContent className="p-6">
         <h3 className="text-xl font-semibold text-gold mb-2">{title}</h3>
-        <p className="text-white/80">{description}</p>
+        <p className="text-foreground/80">{description}</p>
       </CardContent>
     </Card>
   );
