@@ -24,9 +24,9 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
       <CardContent className="p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
           <h3 className="text-xl font-semibold text-gold">{title}</h3>
-          <span className="text-sm text-white/60">{period}</span>
+          <span className="text-sm text-foreground/60">{period}</span>
         </div>
-        <p className="text-white/80">{description}</p>
+        <p className="text-foreground/80">{description}</p>
       </CardContent>
     </Card>
   );

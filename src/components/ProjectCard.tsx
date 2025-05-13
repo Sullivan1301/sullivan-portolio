@@ -28,15 +28,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           className="absolute inset-0 bg-cover bg-center transform group-hover:scale-110 transition-transform duration-500"
           style={{ backgroundImage: `url(${imageUrl})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-dark to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
       </div>
       <CardContent className="p-6">
         <h3 className="text-xl font-semibold text-gold mb-1">{title}</h3>
-        <p className="text-white/80 mb-4">{description}</p>
+        <p className="text-foreground/80 mb-4">{description}</p>
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2">
             {tags.map(tag => (
-              <span key={tag} className="text-xs bg-muted px-2 py-1 rounded text-white/60">
+              <span key={tag} className="text-xs bg-muted px-2 py-1 rounded text-foreground/60">
                 {tag}
               </span>
             ))}

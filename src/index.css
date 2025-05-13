@@ -7,6 +7,40 @@
 
 @layer base {
   :root {
+    /* Light mode variables */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 7%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 98%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 47 63% 52%;  /* Gold color */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 204 76% 19%;  /* Ocean blue */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 47 63% 52%;  /* Gold color */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 80%;
+    --input: 0 0% 80%;
+    --ring: 0 0% 20%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark mode variables */
     --background: 0 0% 7%;
     --foreground: 0 0% 100%;
 
@@ -45,7 +79,7 @@
   }
 
   body {
-    @apply bg-dark text-white font-inter;
+    @apply bg-background text-foreground font-inter;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -59,7 +93,7 @@
   }
   
   .bg-gradient {
-    @apply bg-gradient-to-br from-ocean to-dark;
+    @apply bg-gradient-to-br from-ocean to-background;
   }
   
   .border-gradient {
@@ -87,7 +121,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-dark;
+  @apply bg-background;
 }
 
 ::-webkit-scrollbar-thumb {
