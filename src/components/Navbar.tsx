@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,7 +30,12 @@ const Navbar: React.FC = () => {
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <a href="#" className="text-2xl font-montserrat font-bold text-gradient">SJ.</a>
+        <a href="#" className="flex items-center">
+          <Avatar className="h-12 w-12 border-2 border-gold hover:border-white transition-colors">
+            <AvatarImage src="/sullivan-profile.jpg" alt="Sullivan Joro" />
+            <AvatarFallback className="bg-dark text-gold text-lg font-bold">SJ</AvatarFallback>
+          </Avatar>
+        </a>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
