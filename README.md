@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# 💼 Portfolio de Sullivan Joro
 
-## Project info
+Bienvenue dans le dépôt officiel de mon portfolio personnel.  
+Ce site est conçu pour me présenter en tant qu’étudiant en informatique passionné par le **marketing digital**, le **community management**, la **création de contenu** et le **développement web**.
 
-**URL**: https://lovable.dev/projects/6e0e1080-28aa-48ce-b4d3-6771e43b546a
+---
 
-## How can I edit this code?
+## 👤 À propos de moi
 
-There are several ways of editing your application.
+Je m'appelle **Sullivan Joro**, je vis à Madagascar.  
+Étudiant en informatique à la Haute École d’Informatique, je suis également créateur de contenu et stratège digital.  
+Ce portfolio me permet de centraliser mes projets, mettre en avant mes compétences et offrir des moyens simples de me contacter pour des missions freelances, stages ou jobs étudiants.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6e0e1080-28aa-48ce-b4d3-6771e43b546a) and start prompting.
+## 🎯 Objectif du site
 
-Changes made via Lovable will be committed automatically to this repo.
+Ce site me sert à :
+- Présenter mes projets et réalisations
+- Mettre en valeur mes compétences techniques et créatives
+- Proposer un CV téléchargeable en un clic
+- Offrir un accès rapide à mes réseaux et contacts professionnels
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Fonctionnalités principales
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🎨 Design moderne, responsive, avec animations douces
+- 📄 Téléchargement direct de mon CV
+- 📧 Bouton de contact par mail
+- 💬 Lien direct vers WhatsApp
+- 🔗 Accès à mon profil LinkedIn
+- 🧠 Sections : À propos, Compétences, Réalisations, Contact
+- 🎯 Thème visuel : noir, blanc, doré, bleu foncé océanique
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Technologies utilisées
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- HTML5 / CSS3  
+- JavaScript  
+- React (ou autre framework si applicable)  
+- Framework UI : TailwindCSS (ou Bootstrap)  
+- Outils de création : Canva, Notion, Meta Business Suite  
+- Hébergement : GitHub Pages ou Vercel
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧠 Compétences
 
-**Edit a file directly in GitHub**
+- ✅ Community Management (création de stories, publications, gestion de pages)
+- ✅ Marketing Digital (stratégie, outils publicitaires, ciblage)
+- ✅ Développement Web (HTML, CSS, JavaScript, React, Java)
+- ✅ Création de contenus visuels et textuels
+- ✅ Gestion de projet, outils collaboratifs (Notion, Trello, Jira)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📫 Me contacter
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📧 Email : [sullivan.13.freelance@gmail.com](mailto:sullivan.13.freelance@gmail.com)  
+📱 WhatsApp : [+261341060802](https://wa.me/261341060802)  
+🔗 LinkedIn : [RAKOTONIAINA Joro Sullivan](https://www.linkedin.com/in/sullivan-rakotoniaina)    
+📄 CV : (lien vers le fichier PDF)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🚀 Lien vers le site
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+👉 [portfolio-sullivan.com](https://sullivan-portolio.lovable.app/) 
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6e0e1080-28aa-48ce-b4d3-6771e43b546a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
