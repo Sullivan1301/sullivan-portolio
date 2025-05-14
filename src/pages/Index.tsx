@@ -157,8 +157,12 @@ const Index = () => {
             variants={fadeInUp}
             {...smoothScale}
           >
-            <div className="w-64 h-64 bg-gradient-to-br from-ocean to-dark rounded-full flex items-center justify-center border-2 border-gold/30 shadow-lg shadow-gold/10">
-              <span className="text-5xl font-bold text-gold">SJ</span>
+            <div className="w-64 h-64 overflow-hidden rounded-full border-2 border-gold/30 shadow-lg shadow-gold/10">
+              <img
+                src="/img/sullivan.jpg"
+                alt="Sullivan Joro"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
         </motion.div>
