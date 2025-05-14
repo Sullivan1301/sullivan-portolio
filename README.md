@@ -1,14 +1,14 @@
 # 💼 Portfolio de Sullivan Joro
 
 Bienvenue dans le dépôt officiel de mon portfolio personnel.  
-Ce site est conçu pour me présenter en tant qu’étudiant en informatique passionné par le **marketing digital**, le **community management**, la **création de contenu** et le **développement web**.
+Ce site est conçu pour me présenter en tant qu'étudiant en informatique passionné par le **marketing digital**, le **community management**, la **création de contenu** et le **développement web**.
 
 ---
 
 ## 👤 À propos de moi
 
 Je m'appelle **Sullivan Joro**, je vis à Madagascar.  
-Étudiant en informatique à la Haute École d’Informatique, je suis également créateur de contenu et stratège digital.  
+Étudiant en informatique à la Haute École d'Informatique, je suis également créateur de contenu et stratège digital.  
 Ce portfolio me permet de centraliser mes projets, mettre en avant mes compétences et offrir des moyens simples de me contacter pour des missions freelances, stages ou jobs étudiants.
 
 ---
@@ -67,5 +67,6 @@ Ce site me sert à :
 
 ## 🚀 Lien vers le site
 
-👉 [portfolio-sullivan.com](https://sullivan-portolio.lovable.app/) 
+👉 [portfolio-sullivan.com](https://sullivan-portolio.lovable.app/)   
+👉 [GitHub Pages](https://sullivan1301.github.io/sullivan-portolio/)
 
