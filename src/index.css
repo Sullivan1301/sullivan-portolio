@@ -101,15 +101,15 @@
   .text-gradient {
     @apply bg-gradient-to-r from-gold via-white to-gold bg-clip-text text-transparent;
   }
-
+  
   .bg-gradient {
     @apply bg-gradient-to-br from-ocean to-background;
   }
-
+  
   .border-gradient {
     @apply border-2 border-transparent bg-gradient-to-r from-gold to-white rounded-md bg-clip-padding;
   }
-
+  
   .section-padding {
     @apply py-16 px-6 md:px-12 lg:px-20;
   }

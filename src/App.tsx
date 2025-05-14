@@ -23,23 +23,23 @@ const App = () => {
   }, []);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
-        <TooltipProvider>
-          <Toaster />
-          <Sonner />
-          <BrowserRouter>
+  <QueryClientProvider client={queryClient}>
+    <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
             <AnimatePresence mode="wait">
-              <Routes>
-                <Route path="/" element={<Index />} />
-                <Route path="*" element={<NotFound />} />
-              </Routes>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
             </AnimatePresence>
-          </BrowserRouter>
-        </TooltipProvider>
-      </ThemeProvider>
-    </QueryClientProvider>
-  );
+        </BrowserRouter>
+      </TooltipProvider>
+    </ThemeProvider>
+  </QueryClientProvider>
+);
 };
 
 export default App;
