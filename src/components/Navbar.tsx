@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <Avatar className="h-12 w-12 border-2 border-gold hover:border-white transition-colors">
-            <AvatarImage src="/sullivan-profile.jpg" alt="Sullivan Joro" />
+            <AvatarImage src="/img/profile.jpg" alt="Sullivan Joro" />
             <AvatarFallback className="bg-dark text-gold text-lg font-bold">SJ</AvatarFallback>
           </Avatar>
         </a>
