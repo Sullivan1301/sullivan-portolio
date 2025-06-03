@@ -24,15 +24,14 @@ Ce site me sert à :
 
 ---
 
-## ✨ Fonctionnalités principales
+## 🚀 Fonctionnalités
 
-- 🎨 Design moderne, responsive, avec animations douces
-- 📸 Galerie de photographies mobiles interactive
-- 📄 Téléchargement direct de mon CV
-- 💬 Contact direct via WhatsApp
-- 🔗 Accès à mon profil LinkedIn
-- 🧠 Sections : À propos, Compétences, Réalisations, Photographie, Contact
-- 🎯 Thème visuel : noir, blanc, doré, bleu foncé océanique
+- Design moderne et responsive
+- Navigation fluide entre les pages
+- Galerie de photographies interactive
+- Formulaire de contact intégré avec WhatsApp
+- Animations fluides avec Framer Motion
+- Thème sombre élégant
 
 ---
 
@@ -41,11 +40,10 @@ Ce site me sert à :
 - React 18
 - TypeScript
 - Vite
-- TailwindCSS
+- React Router
 - Framer Motion
-- React Icons
-- Shadcn/ui
-- GitHub Pages pour l'hébergement
+- Tailwind CSS
+- GitHub Pages
 
 ---
 
@@ -87,20 +85,69 @@ Ce site me sert à :
 
 ## 🛠️ Développement local
 
+## 📦 Installation
+
+1. Clonez le dépôt :
 ```bash
-# Cloner le repository
-git clone https://github.com/Sullivan1301/sullivan-portolio.git
+git clone https://github.com/sullivan-joro/sullivan-portolio.git
+cd sullivan-portolio
+```
 
-# Installer les dépendances
+2. Installez les dépendances :
+```bash
 npm install
+```
 
-# Lancer le serveur de développement
+3. Lancez le serveur de développement :
+```bash
 npm run dev
+```
 
-# Build pour la production
+4. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
+
+## 🏗️ Construction
+
+Pour construire le projet pour la production :
+
+```bash
 npm run build
+```
 
-# Déployer sur GitHub Pages
+## 🚀 Déploiement
+
+Le site est automatiquement déployé sur GitHub Pages à chaque push sur la branche `main`.
+
+Pour déployer manuellement :
+
+```bash
 npm run deploy
 ```
+
+## 📝 Structure du projet
+
+```
+sullivan-portolio/
+├── src/
+│   ├── components/     # Composants réutilisables
+│   ├── pages/         # Pages de l'application
+│   ├── hooks/         # Hooks personnalisés
+│   ├── styles/        # Styles globaux
+│   ├── App.tsx        # Composant racine
+│   └── main.tsx       # Point d'entrée
+├── public/            # Fichiers statiques
+└── index.html         # Template HTML
+```
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## 📞 Contact
+
+- WhatsApp : [+261 34 10 608 02](https://wa.me/261341060802)
+- Email : sullivan.joro@gmail.com
 
