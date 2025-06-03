@@ -4,18 +4,6 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -36,20 +24,9 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Copy CNAME
-        run: cp public/CNAME dist/ || echo "No CNAME file"
-
-      - name: Create .nojekyll file
-        run: touch dist/.nojekyll
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: './dist'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4 
+          folder: dist
+          branch: gh-pages
+          clean: true
