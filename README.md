@@ -58,15 +58,24 @@ Ce site me sert à :
 
 ## 📫 Me contacter
 
-📧 Email : [sullivan.13.freelance@gmail.com](mailto:sullivan.13.freelance@gmail.com)  
+📧 Email : [sullivanjoro13@gmail.com](mailto:sullivanjoro13@gmail.com)  
 📱 WhatsApp : [+261341060802](https://wa.me/261341060802)  
 🔗 LinkedIn : [RAKOTONIAINA Joro Sullivan](https://www.linkedin.com/in/sullivan-rakotoniaina)    
-📄 CV : (lien vers le fichier PDF)
+📄 CV : [Télécharger mon CV](/Sullivan_CV.pdf)
 
 ---
 
 ## 🚀 Lien vers le site
 
-👉 [portfolio-sullivan.com](https://sullivan-portolio.lovable.app/)   
-👉 [GitHub Pages](https://sullivan1301.github.io/sullivan-portolio/)
+👉 [portfolio-sullivan.com](https://sullivan1301.github.io/sullivan-portolio/)
+
+---
+
+## 📝 Dernières mises à jour
+
+- Ajout d'un formulaire de contact WhatsApp
+- Mise à jour du design et des animations
+- Optimisation des performances
+- Amélioration de l'accessibilité
+- Ajout de nouvelles sections et projets
 
