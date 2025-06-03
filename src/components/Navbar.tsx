@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
-import { ThemeToggle } from './ThemeToggle';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,12 +43,10 @@ const Navbar: React.FC = () => {
           <a href="#experiences" className="text-foreground/80 hover:text-gold transition-colors">Expériences</a>
           <a href="#portfolio" className="text-foreground/80 hover:text-gold transition-colors">Portfolio</a>
           <a href="#contact" className="text-foreground/80 hover:text-gold transition-colors">Contact</a>
-          <ThemeToggle />
         </div>
 
         {/* Mobile Menu Button */}
         <div className="flex items-center gap-4 md:hidden">
-          <ThemeToggle />
           <button
             onClick={toggleMenu}
             aria-label="Toggle menu"

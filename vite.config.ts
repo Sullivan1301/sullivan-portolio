@@ -6,7 +6,7 @@ import fs from 'fs';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/sullivan-portolio/",
+  base: mode === 'production' ? "/sullivan-portolio/" : "/",
   server: {
     host: "::",
     port: 8080,
@@ -18,7 +18,9 @@ export default defineConfig(({ mode }) => ({
     {
       name: 'copy-nojekyll',
       closeBundle() {
-        fs.writeFileSync('./dist/.nojekyll', '');
+        if (mode === 'production') {
+          fs.writeFileSync('./dist/.nojekyll', '');
+        }
       }
     }
   ].filter(Boolean),

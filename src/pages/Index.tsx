@@ -318,19 +318,19 @@ const Index = () => {
             {
               title: "Publications Facebook",
               description: "Visuels et campagnes pour réseaux sociaux dans le domaine du sport et bien-être.",
-              imageUrl: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop",
+              imageUrl: "https://images.unsplash.com/photo-1579630224350-d39f2348b66e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               tags: ["Design", "Social Media", "Marketing"]
             },
             {
               title: "TechYou Care",
               description: "Interface utilisateur pour une application de gestion de données médicales.",
-              imageUrl: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop",
+              imageUrl: "https://unsplash.com/photos/person-wearing-lavatory-gown-with-green-stethoscope-on-neck-using-phone-while-standing-kS_V4tL304Y",
               tags: ["UI/UX", "React", "Java"]
             },
             {
               title: "RunRobe Landing",
               description: "Page d'atterrissage pour une boutique de vêtements sportifs en ligne.",
-              imageUrl: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2070&auto=format&fit=crop",
+              imageUrl: "https://unsplash.com/photos/a-store-filled-with-lots-of-red-and-black-shirts-f4H23M5F1fU",
               tags: ["Web Design", "HTML/CSS", "JavaScript"]
             },
             {
