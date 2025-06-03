@@ -4,18 +4,11 @@ import Navigation from '@/components/Navigation';
 import Home from '@/pages/Home';
 import Photography from '@/pages/Photography';
 import Contact from '@/pages/Contact';
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import NotFound from "./pages/NotFound";
-import { ThemeProvider } from "./hooks/useTheme";
-
-const queryClient = new QueryClient();
 
 const App = () => {
   useEffect(() => {
