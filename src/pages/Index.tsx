@@ -10,6 +10,7 @@ import SkillCard from '@/components/SkillCard';
 import ExperienceCard from '@/components/ExperienceCard';
 import ProjectCard from '@/components/ProjectCard';
 import ContactForm from '@/components/ContactForm';
+import PhotographySection from '@/components/PhotographySection';
 
 // Animations plus subtiles et professionnelles
 const fadeInUp = {
@@ -367,6 +368,9 @@ const Index = () => {
           ))}
         </motion.div>
       </Section>
+
+      {/* Photography Section */}
+      <PhotographySection />
 
       {/* Contact Section */}
       <Section id="contact">
