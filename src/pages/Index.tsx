@@ -80,11 +80,6 @@ const Index = () => {
               </a>
             </Button>
             <Button asChild variant="outline" className="border-gold text-gold hover:bg-gold/10 transition-colors">
-              <a href="mailto:sullivan.13.freelance@gmail.com" aria-label="Me contacter par mail">
-                Me contacter par mail <ArrowRight className="ml-2 h-4 w-4" />
-              </a>
-            </Button>
-            <Button asChild variant="outline" className="border-gold text-gold hover:bg-gold/10 transition-colors">
               <a href="https://wa.me/261341060802" target="_blank" rel="noopener noreferrer" aria-label="Me contacter sur WhatsApp">
                 WhatsApp <ArrowRight className="ml-2 h-4 w-4" />
               </a>
@@ -394,13 +389,6 @@ const Index = () => {
             whileInView="animate"
             viewport={{ once: true, margin: "-100px" }}
           >
-            <motion.div variants={fadeInUp}>
-              <Button asChild variant="outline" className="border-gold text-gold hover:bg-gold/10 transition-colors">
-                <a href="mailto:sullivan.13.freelance@gmail.com">
-                  sullivan.13.freelance@gmail.com
-                </a>
-              </Button>
-            </motion.div>
             <motion.div variants={fadeInUp}>
               <Button asChild variant="outline" className="border-gold text-gold hover:bg-gold/10 transition-colors">
                 <a href="https://wa.me/261341060802" target="_blank" rel="noopener noreferrer">
