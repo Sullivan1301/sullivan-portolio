@@ -11,6 +11,7 @@ import ExperienceCard from '@/components/ExperienceCard';
 import ProjectCard from '@/components/ProjectCard';
 import ContactForm from '@/components/ContactForm';
 import PhotographySection from '@/components/PhotographySection';
+import { FaWhatsapp } from 'react-icons/fa';
 
 // Animations plus subtiles et professionnelles
 const fadeInUp = {
@@ -383,7 +384,7 @@ const Index = () => {
             Envie de discuter d'un projet ou d'une opportunité ? N'hésitez pas à me contacter.
           </p>
           <motion.div
-            className="flex justify-center space-x-4 mb-8"
+            className="flex justify-center mb-8"
             variants={staggerContainer}
             initial="initial"
             whileInView="animate"
@@ -392,7 +393,8 @@ const Index = () => {
             <motion.div variants={fadeInUp}>
               <Button asChild variant="outline" className="border-gold text-gold hover:bg-gold/10 transition-colors">
                 <a href="https://wa.me/261341060802" target="_blank" rel="noopener noreferrer">
-                  +261 34 106 08 02
+                  <FaWhatsapp className="mr-2 h-5 w-5" />
+                  +261 34 10 608 02
                 </a>
               </Button>
             </motion.div>
